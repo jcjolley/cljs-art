@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08a49eae-b98c-499c-bbbd-093bcc59f2ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sketches/perlin_flow.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/sketches/perlin_flow.cljs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.cljs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.cljs.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.cljs.cache.json" afterDir="false" />
@@ -61,12 +60,12 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jolle\dev\art\perlin\src\sketches" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jolle\dev\art\perlin\resources\public" />
       <recent name="C:\Users\jolle\dev\art\perlin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jolle\dev\art\perlin\src\sketches" />
     </key>
   </component>
   <component name="RunManager">
@@ -118,7 +117,7 @@
       <workItem from="1576343747749" duration="793000" />
       <workItem from="1576344604537" duration="338000" />
       <workItem from="1576344960178" duration="10451000" />
-      <workItem from="1576426815338" duration="5722000" />
+      <workItem from="1576426815338" duration="6813000" />
     </task>
     <servers />
   </component>

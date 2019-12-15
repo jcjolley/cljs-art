@@ -7,6 +7,7 @@
 (def h (.-clientHeight body))
 (def noise-zoom "Noise zoom level." 0.9)
 (def particle-id (atom 1))
+(def counter (atom 1000))
 
 (def palette
   {:name       "Random"
@@ -57,8 +58,11 @@
   (map particle (range 0 00)))
 
 (defn prune [particles]
-  (if (< 498 (q/random 0 500))
+  (swap! counter inc)
+  (print "counter: "@counter)
+  (if (< 600 @counter)
     (do
+      (reset! counter 0)
       (apply q/background (:background palette))
       (->> (nthrest particles 10)
            (#(concat % (map particle (range 0 10))))))
