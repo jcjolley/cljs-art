@@ -44,6 +44,6 @@ goog.addDependency("../quil/middlewares/navigation_2d.js", ['quil.middlewares.na
 goog.addDependency("../quil/middlewares/fun_mode.js", ['quil.middlewares.fun_mode'], ['cljs.core', 'quil.core']);
 goog.addDependency("../quil/middleware.js", ['quil.middleware'], ['cljs.core', 'quil.middlewares.navigation_3d', 'quil.middlewares.navigation_2d', 'quil.middlewares.fun_mode']);
 goog.addDependency("../sketches/perlin_flow_lightning.js", ['sketches.perlin_flow_lightning'], ['cljs.core', 'quil.core', 'quil.middleware']);
-goog.addDependency("../sketches/perlin_flow_rainbow_vines.js", ['sketches.perlin_flow_rainbow_vines'], ['cljs.core', 'quil.core', 'quil.middleware']);
 goog.addDependency("../sketches/perlin_flow_star_dust.js", ['sketches.perlin_flow_star_dust'], ['cljs.core', 'quil.core', 'quil.middleware']);
+goog.addDependency("../sketches/perlin_flow_rainbow_vines.js", ['sketches.perlin_flow_rainbow_vines'], ['cljs.core', 'quil.core', 'quil.middleware']);
 goog.addDependency("../sketches/perlin_flow.js", ['sketches.perlin_flow'], ['cljs.core', 'quil.core', 'quil.middleware']);
