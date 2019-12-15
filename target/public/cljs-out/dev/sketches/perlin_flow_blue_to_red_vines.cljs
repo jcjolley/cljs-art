@@ -1,4 +1,4 @@
-(ns sketches.perlin-flow
+(ns sketches.perlin-flow-blue-to-red-vines
   (:require [quil.core :as q]
             [quil.middleware :as middleware]))
 

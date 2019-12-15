@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08a49eae-b98c-499c-bbbd-093bcc59f2ac" name="Default Changelist" comment="" />
+    <list default="true" id="08a49eae-b98c-499c-bbbd-093bcc59f2ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sketches/perlin_flow.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/src/sketches/perlin_flow.cljs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.cljs" beforeDir="false" afterPath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.cljs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.cljs.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.cljs.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/public/cljs-out/dev/sketches/perlin_flow.js.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +37,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UyuPJfqPuSIhWfFDOcyCEE4uND" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sketches" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -108,7 +118,7 @@
       <workItem from="1576343747749" duration="793000" />
       <workItem from="1576344604537" duration="338000" />
       <workItem from="1576344960178" duration="10451000" />
-      <workItem from="1576426815338" duration="2899000" />
+      <workItem from="1576426815338" duration="5722000" />
     </task>
     <servers />
   </component>

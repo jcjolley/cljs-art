@@ -6,20 +6,11 @@
 (def w (.-clientWidth body))
 (def h (.-clientHeight body))
 (def noise-zoom "Noise zoom level." 0.005)
+
 (def palette
-  {:name       "purple haze"
-   :background [10 10 10]
-   :colors     (take 10 (repeatedly #(vector (q/random 0 255) (q/random 0 255) (q/random 0 255))))})
-
-(defn brightness [color]
-  (let [rand (q/random 0 1000)
-        alpha (cond (< 0 rand 1) 255
-                    (< 1 rand 10) 150
-                    (< 10 rand 50) 125
-                    (< 50 rand 100) 100
-                    :else 70)]
-    (assoc color 3 alpha)))
-
+  {:name       "Blues"
+   :background [2 2 2]
+   :colors     (take 25 (repeatedly #(vector (q/random 0 25) (q/random 50 100) (q/random 200 255))))})
 
 (defn position
   "Calculates the next position based on the current, the speed and a max."
@@ -45,7 +36,7 @@
   {:id        id
    :vx        1
    :vy        1
-   :size      (q/random 1 4)
+   :size      3
    :direction 0
    :x         (q/random w)
    :y         (q/random h)
@@ -54,7 +45,13 @@
 (defn sketch-setup
   "Returns the initial state to use for the update-render loop."
   []
-  (map particle (range 0 4000)))
+  (apply q/background (:background palette))
+  (map particle (range 0 2000)))
+
+(defn update-color [color]
+  (if (< 1 (q/random 0 25) 2)
+    (assoc color 0 (min 255 (inc (first color))))
+    color))
 
 (defn sketch-update
   "Returns the next state to render. Receives the current state as a paramter."
@@ -63,8 +60,8 @@
          (assoc p
            :x (position (:x p) (:vx p) w)
            :y (position (:y p) (:vy p) h)
-           :color (brightness (:color p))
            :direction (direction (:x p) (:y p) (:id p))
+           :color (update-color (:color p))
            :vx (velocity (:vx p) (Math/cos (:direction p)))
            :vy (velocity (:vy p) (Math/sin (:direction p)))))
        particles))
@@ -73,10 +70,9 @@
 (defn sketch-draw
   "Draws the current state to the canvas. Called on each iteration after sketch-update."
   [particles]
-  (apply q/background (:background palette))
   (q/no-stroke)
   (doseq [p particles]
-    (apply q/fill (:color p))
+    (apply q/fill (conj (:color p) (q/random 3 5)))
     (q/ellipse (:x p) (:y p) (:size p) (:size p))))
 
 
