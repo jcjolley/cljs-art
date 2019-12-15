@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Deps: xml-apis:2.0.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
